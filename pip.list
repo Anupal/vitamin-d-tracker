@@ -1,0 +1,11 @@
+PyQt6
+PyQt6-WebEngine
+folium
+pyqt6-tools
+openmeteo-requests
+requests-cache
+retry-requests
+numpy
+pandas
+matplotlib
+boto3

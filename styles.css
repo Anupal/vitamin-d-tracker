@@ -1,0 +1,211 @@
+QMainWindow {
+    background-color: white;
+    color: #272727;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 300;
+}
+
+#mainView__txtToday,
+#mainView__txtWeekly {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#mainView__txtTodayValueLabel,
+#mainView__txtTodayTargetValueLabel {
+    color: #909090;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#mainView__txtTodayValue,
+#mainView__txtTodayTargetValue {
+    color: #00008B;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+#skinSelectorView__heading {
+    font-size: 32px;
+    color: darkblue;
+    font-weight: 400;
+}
+
+#imageSelector {
+    border-right: 1px solid #909090;
+    border-bottom: 1px solid #909090;
+    border-radius: 10px;
+    background-color: #f3f3f4;
+}
+
+#imageSelector:hover {
+    background-color: #e3e3e3;
+}
+
+#imageSelector:pressed {
+    background-color: darkblue;
+    color: white;
+}
+
+#imageSelector__imageWrapper {
+    /* border: 2px solid #502F4C; */
+    background-color: transparent;
+}
+
+#imageSelector__imageName {
+    font-size: 28px;
+    font-weight: 300;
+    color: darkblue;
+}
+
+#imageSelector__imageDescription {
+    font-style: italic;
+    color: #272727;
+}
+
+#graphWidget {
+    border: 2px solid #00008B;
+}
+
+QPushButton {
+    color: #272727;
+    border-right: 1px solid #909090;
+    border-bottom: 1px solid #909090;
+    border-radius: 5px;
+    background-color: #f3f3f4;
+}
+
+QPushButton:hover {
+    background-color: #e3e3e3;
+}
+
+QPushButton:pressed {
+    background-color: #00008B;
+    color: #ffffff;
+    border-color: #00008B;
+}
+
+#logItem {
+    border-bottom: 1px solid #c5c5c5;
+    background-color: transparent;
+}
+
+#logItem:hover {
+    border-bottom: 2px solid #00008B;
+    background-color: #f8f8f8;
+}
+
+#logItem__labelTime {
+    color: #272727;
+    font-size: 28px;
+}
+
+#logItem__labelTimeDuration {
+    color: #272727;
+    font-size: 28px;
+}
+
+#logItem__labelVitaminD {
+    color: #00008B;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#logItem__labelTimeHeading {
+    color: #a1a1a1;
+    font-size: 18px;
+}
+
+#logItem__labelTimeDurationHeading {
+    color: #a1a1a1;
+    font-size: 18px;
+}
+
+#logItem__labelVitaminDHeading {
+    color: #a1a1a1;
+    font-size: 18px;
+}
+
+#txtDayValue {
+    color: #00008B;
+    font-weight: 500;
+    font-size: 64px;
+}
+
+#labelDay {
+    color: #272727;
+    font-size: 22px;
+}
+
+#labelSkinExposure {
+    color: #272727;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+QGraphicsScene,
+QGraphicsView,
+QGraphicsPixmapItem {
+    background-color: white;
+    border: none;
+}
+
+QPushButton#btnAddLog {
+    border-radius: 25px;
+}
+
+#readingsLocation {
+    color: #909090;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#labelStartTime,
+#labelEndTime,
+#labelLocation {
+    color: darkblue;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+QLineEdit {
+    color: #272727;
+    background-color: #f0f0f0;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 18px;
+}
+
+QTimeEdit {
+    color: #272727;
+    background-color: #f0f0f0;
+    border: 1px solid #a0a0a0;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 18px;
+}
+
+QTimeEdit::down-button,
+QTimeEdit::up-button {
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: #e0e0e0;
+    color: #272727;
+    border-right: 1px solid #909090;
+    border-bottom: 1px solid #909090;
+}
+
+QTimeEdit::down-button:hover,
+QTimeEdit::up-button:hover {
+    background-color: #d0d0d0;
+}
+
+#sensorMessage {
+    font-size: 32px;
+    color: #00008B;
+    font-weight: 800;
+}
