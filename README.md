@@ -109,5 +109,5 @@ To determine MED, we ask users to classify their skin colors in 6 categories. Th
 4. Run app.py to start the application
 
 ## REFERENCES
-Holick's rule: https://www.sciencedirect.com/science/article/pii/S0960076010001925?via%3Dihub
-Holick's rule calc: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9527498
+- Holick's rule: https://www.sciencedirect.com/science/article/pii/S0960076010001925?via%3Dihub
+- Holick's rule calc: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9527498
