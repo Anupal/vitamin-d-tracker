@@ -6,11 +6,12 @@
     - [UV dose](#uv-dose)
     - [Minimal Erythema Dose (MED)](#minimal-erythema-dose-med)
     - [Body Surface Area (BSA)](#body-surface-area-bsa)
+3. [CALCULATIONS](#calculations)
     - [CALCULATING UV-INDEX](#calculating-uv-index)
     - [CALCULATING BODY SURFACE AREA](#calculating-body-surface-area)
     - [CALCULATING MINIMUM ERYTHEMA DOSE (MED)](#calculating-minimum-erythema-dose-med)
-6. [HOW TO USE THE APPLICATION](#how-to-use-the-application)
-7. [REFERENCES](#references)
+4. [HOW TO USE THE APPLICATION](#how-to-use-the-application)
+5. [REFERENCES](#references)
 
 ## INTRODUCTION
 Over the past few years, there has been a sudden increase in Vitamin D deficiencies among adults of all age groups. This 
@@ -61,6 +62,8 @@ time spent in sunlight in seconds, **k** is a constant and **MED** is Minimal Er
 The following data is obtained from multiple sources such as Location API, OpenMeteo weather API, or just directly asking 
 the user.
 
+### CALCULATIONS
+
 #### 1. CALCULATING UV-INDEX
 To begin, user is asked about his geographical location which is converted into GPS coordinates.
 Then public API provided by OpenMeteo to get UV-Index forecasts for 7 days at those GPS coordinates. These include:
@@ -87,6 +90,7 @@ To determine MED, we ask users to classify their skin colors in 6 categories. Th
 | IV       | Olive skin                  | 450        |
 | V        | Dark-brow skin              | 600        |
 | VI       | Deeply pigmented skin       | 1000       |
+
 ***Figure: MED value mappings to Skin category***
 
 ## HOW TO USE THE APPLICATION
@@ -105,6 +109,5 @@ To determine MED, we ask users to classify their skin colors in 6 categories. Th
 4. Run app.py to start the application
 
 ## REFERENCES
-REFERENCES
 Holick's rule: https://www.sciencedirect.com/science/article/pii/S0960076010001925?via%3Dihub
 Holick's rule calc: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9527498
