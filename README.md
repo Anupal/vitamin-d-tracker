@@ -1,5 +1,5 @@
 # DSURE - VITAMIN-D Tracker
-
+![Architecture](img/dsure-h.png)
 ## Table of Contents:
 1. [INTRODUCTION](#introduction)
 2. [HOLICK’S RULE AND IMPLEMENTATION](#holicks-rule-and-implementation)
